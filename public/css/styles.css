@@ -2,36 +2,103 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 /* Estilo para el header */
 header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+
+  /* Agrega un margen inferior de 20px entre las dos listas */
+  ul {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .compra{
+    margin: 40px;
+    text-align: center;
+  }
+
+  .titulo-destacado{
+    text-align: center; /* Centra el texto horizontalmente */
+    background: linear-gradient(135deg, #EAC926, #1259c3); /* Fondo degradado amarillo y celeste */
+    color: white; /* Color del texto en blanco para que se vea bien sobre el fondo */
+    border-radius: 15px; /* Esquinas redondas */
+    padding: 10px 20px; /* Ajusta el espaciado según tus preferencias */
+    display: inline-block; /* Para que el fondo degradado abarque el ancho del texto */
+  }
+
+  img.logo-mercado-liebre {
+    display: block;
+    margin: 0 auto;
+    width: 320px; /* Ajusta el tamaño según tus preferencias */
+    margin-bottom: 75px;
+    text-align: justify;
   }
   
-  /* Estilo para la barra de navegación */
-  #navbar {
-    background-color: #03264C;
-    color: #fff; /* Texto en color blanco */
-    font-size: 24px; /* Tamaño de fuente para titulares */
-  }
-  
-  /* Estilo para el login bar */
-  #compra {
-    background-color: #1259c3;
-    color: #fff; /* Texto en color blanco */
-    font-size: 12px;
-    text-align: center; /* Tamaño de fuente para cuerpos de texto */
-  }
-  
-  /* Estilo para el search bar */
-  #search-bar {
-    background-color: #ebebeb;
-    font-size: 12px; /* Tamaño de fuente para cuerpos de texto */
-  }
-  
-  /* Estilo para los íconos */
-  .icon {
-    font-size: 24px; /* Tamaño de fuente para íconos */
-    color: #39b54a;
-  }
-  
+  form {
+    text-align: center; /* Esto centra horizontalmente los elementos en el formulario */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.precio-articulo{
+  font-size: 18px;
+  text-align: center;
+}
+
+.descuento-articulo{
+  font-size: 16px;
+  text-align: center;
+}
+
+.nombre-articulo{
+  font-size: 16px;
+  text-align: center;
+}
+
+img.Cafetera-Moulinex {
+  display: block;
+  margin: 0 auto;
+  width: 420px; /* Ajusta el tamaño según tus preferencias */
+}
+
+img.MacBook-Pro-2019 {
+  display: block;
+  margin: 0 auto;
+  width: 420px; /* Ajusta el tamaño según tus preferencias */
+}
+
+img.Samsung-Galaxy-S10 {
+  display: block;
+  margin: 0 auto;
+  width: 420px; /* Ajusta el tamaño según tus preferencias */
+}
+
+img.SmartTv-Samsung-43{
+  display: block;
+  margin: 0 auto;
+  width: 420px; /* Ajusta el tamaño según tus preferencias */
+}
+
+footer{
+  background-color: #03264C;;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+    margin-bottom: 400px;
+    height: 800px; /* Establece la altura deseada para el footer */
+    padding: 30px; /* Espaciado interno del contenido dentro del footer */
+
+}
+
+section{
+  margin-bottom: 40px;
+  text-align: center;
+}
