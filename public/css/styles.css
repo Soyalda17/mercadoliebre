@@ -1,104 +1,308 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
 }
 
-/* Estilo para el header */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  background-color: #EAC926;
+  padding: 20px;
+}
+
+.hamburger-button {
+  background-color: #03264C;
+  color: white;
+  display: block;
+  max-width: 50px;
+  padding: 15px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+.logo{
+  width: 200px;
+}
+
+.copy-header{
+  font-weight: 400px;
+  text-align: center;
+}
+
+.main-navbar {
+  display: none;
+}
+.main-navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  color: #222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+
 header {
-    background-color: #EAC926;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-  }
+  background-color: #EAC926;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
 
 
-  /* Agrega un margen inferior de 20px entre las dos listas */
-  ul {
-    margin-bottom: 20px;
-    text-align: left;
-  }
+/* Agrega un margen inferior de 20px entre las dos listas */
+ul {
+  margin-bottom: 20px;
+  text-align: left;
+}
 
-  .compra{
-    margin: 40px;
-    text-align: center;
-  }
+.compra{
+  margin: 40px;
+  text-align: center;
+}
 
-  .titulo-destacado{
-    text-align: center; /* Centra el texto horizontalmente */
-    background: linear-gradient(135deg, #EAC926, #1259c3); /* Fondo degradado amarillo y celeste */
-    color: white; /* Color del texto en blanco para que se vea bien sobre el fondo */
-    border-radius: 15px; /* Esquinas redondas */
-    padding: 10px 20px; /* Ajusta el espaciado según tus preferencias */
-    display: inline-block; /* Para que el fondo degradado abarque el ancho del texto */
-  }
+.titulo-destacado{
+  text-align: center; /* Centra el texto horizontalmente */
+  background: linear-gradient(135deg, #EAC926, #1259c3); /* Fondo degradado amarillo y celeste */
+  color: white; /* Color del texto en blanco para que se vea bien sobre el fondo */
+  border-radius: 15px; /* Esquinas redondas */
+  padding: 10px 20px; /* Ajusta el espaciado según tus preferencias */
+  display: inline-block; /* Para que el fondo degradado abarque el ancho del texto */
+}
 
-  img.logo-mercado-liebre {
-    display: block;
-    margin: 0 auto;
-    width: 320px; /* Ajusta el tamaño según tus preferencias */
-    margin-bottom: 75px;
-    text-align: justify;
-  }
-  
-  form {
-    text-align: center; /* Esto centra horizontalmente los elementos en el formulario */
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+img.logo-mercado-liebre {
+  display: block;
+  margin: 0 auto;
+  width: 320px; /* Ajusta el tamaño según tus preferencias */
+  margin-bottom: 75px;
+  text-align: justify;
+}
+
+form {
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .precio-articulo{
-  font-size: 18px;
-  text-align: center;
+font-size: 18px;
+text-align: center;
 }
 
 .descuento-articulo{
-  font-size: 16px;
-  text-align: center;
+font-size: 16px;
+text-align: center;
 }
 
 .nombre-articulo{
-  font-size: 16px;
-  text-align: center;
+font-size: 16px;
+text-align: center;
 }
 
 img.Cafetera-Moulinex {
-  display: block;
-  margin: 0 auto;
-  width: 420px; /* Ajusta el tamaño según tus preferencias */
+display: block;
+margin: 0 auto;
+width: 420px; /* Ajusta el tamaño según tus preferencias */
 }
 
 img.MacBook-Pro-2019 {
-  display: block;
-  margin: 0 auto;
-  width: 420px; /* Ajusta el tamaño según tus preferencias */
+display: block;
+margin: 0 auto;
+width: 420px; /* Ajusta el tamaño según tus preferencias */
 }
 
 img.Samsung-Galaxy-S10 {
-  display: block;
-  margin: 0 auto;
-  width: 420px; /* Ajusta el tamaño según tus preferencias */
+display: block;
+margin: 0 auto;
+width: 420px; /* Ajusta el tamaño según tus preferencias */
 }
 
 img.SmartTv-Samsung-43{
-  display: block;
-  margin: 0 auto;
-  width: 420px; /* Ajusta el tamaño según tus preferencias */
+display: block;
+margin: 0 auto;
+width: 420px; /* Ajusta el tamaño según tus preferencias */
 }
 
 footer{
-  background-color: #03264C;;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 14px;
-    margin-bottom: 400px;
-    height: 800px; /* Establece la altura deseada para el footer */
-    padding: 30px; /* Espaciado interno del contenido dentro del footer */
+background-color: #03264C;;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 14px;
+  margin-bottom: 400px;
+  height: 800px; /* Establece la altura deseada para el footer */
+  padding: 30px; /* Espaciado interno del contenido dentro del footer */
 
 }
 
 section{
+margin-bottom: 40px;
+text-align: center;
+}
+
+/*===================================================================================================================*/
+
+@media (max-width: 768px) and (min-width: 384px){
+.main-header{
+  width: 100%;
+  display: block;
+}
+.main-header-top-bar{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+}
+.logo{
+  width: 60%;
+}
+form {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.copy-header{
+  text-align: center;
+  font-size: 13px;
+  width: 100%;
+}
+.hamburger-button{
+  background-color: #03264C;
+color: white;
+display: flex;
+border-radius: 8px;
+text-align: center;
+width: 14%;
+justify-content: center;
+position: absolute;
+left: 16em;
+}
+main{
+  display: block;
+}
+.img-home-banner {
+  width: 100%;
+  padding: 10px;
+}
+section {
   margin-bottom: 40px;
   text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+}
+section > .producto {
+  padding: 10px;
+}
+.producto {
+  width: 40%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 6px;
+  box-shadow: 1px 0px 5px black;
+}
+.imagen-producto{
+  width: 100%;
+  padding: 5px;
+}
+.precio-articulo{
+  width: 50%;
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+}
+.descuento-articulo{
+  width: 50%;
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+}
+.nombre-articulo{
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  margin: 0;
+}
+}
+
+/*====================================================================*/
+@media (min-width: 768px) {
+.main-header-top-bar {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-header{
+max-width: 350px;
+text-align: right;
+}
+.hamburger-button{
+display: none;
+}
+.main-navbar{
+display: flex;
+justify-content: space-between;
+}
+
+.main-navbar ul{
+display: flex;
+}
+
+.main-navbar li{
+margin: 0 5px;
+}
+}
+
+@media (min-width: 1200px) {
+.logo{
+    width: 250px;
+}
+.main-header-top-bar, .main-navbar  {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.copy-header{
+    margin: auto;
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400px;
+}
+.main-navbar{
+    margin-top: 50px;
+}
+.main-navbar li{
+    margin: 0 10px;
+}
+.main-navbar a {
+    margin: 0 19px;
+}
+.barra-busqueda{
+  margin: auto;
+  display: flex;
+}
+footer {
+  background-color: #03264C;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+color: whitesmoke;
+display: flex;
+flex-flow: row wrap;
+padding: 13px;
+font-size: 15px;
+}
 }
